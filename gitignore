@@ -1,0 +1,27 @@
+# Data files
+*.csv
+*.parquet
+*.json
+*.pkl
+*.h5
+*.hdf5
+data/
+
+# Model artifacts
+*.pt
+*.pth
+models/
+checkpoints/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# Python virtualenv
+venv/
+.env/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
